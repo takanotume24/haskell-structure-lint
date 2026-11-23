@@ -1,6 +1,6 @@
 module HsLint.CLI (runCheckCommand, runPositionalCommand) where
 
-import Control.Monad (unless, when)
+import Control.Monad (unless)
 import Data.Maybe (fromMaybe)
 import HsLint.CheckStructure (checkStructureViolations, checkStructureWarnings)
 import HsLint.Config (Config (..))
